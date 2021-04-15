@@ -1,0 +1,20 @@
+{
+    "name": "rrmode/flarum_title_search",
+    "description": "Devvela flarum extension for discussion title search",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nikita",
+            "email": "retretx@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "rrmode\\Search\\": "src/"
+        }
+    }
+}
